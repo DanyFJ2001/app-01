@@ -11,6 +11,7 @@ import Pagina4Screen from '../screens/Pagina4Screen';
 import Pagina6Screen from '../screens/Pagina6Screen';
 import Pagina7Screen from '../screens/Pagina7Screen';
 import Pagina5 from '../screens/Pagina5.Screen';
+import Pagina8Screen from '../screens/Pagina8Screen';
 
 
  
@@ -37,6 +38,7 @@ function MyDrawer() {
             <Drawer.Screen name="Pagina5" component={Pagina5}/> 
             <Drawer.Screen name="Pagina6" component={Pagina6Screen}/> 
             <Drawer.Screen name="Pagina7" component={Pagina7Screen}/> 
+            <Drawer.Screen name="Pagina8" component={Pagina8Screen}/> 
         </Drawer.Navigator> 
     ); 
 } 

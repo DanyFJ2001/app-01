@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"; 
 import { FlatList, Text, View, StyleSheet } from "react-native"; 
 import Tarjeta3 from "../components/Tarjeta3"; 
+import Tarejta4 from '../components/Tarjeta4';
  
 export default function Pagina6Screen() { 
     const [datos, setdatos] = useState([]); 
@@ -17,13 +18,13 @@ export default function Pagina6Screen() {
     }, []); 
  
     return ( 
-        <View> 
-            <Text>Pagina6Screen</Text> 
+        <Text> 
+            
             <FlatList 
                 data={datos} 
-                renderItem={({ item }) => <Tarjeta3 datos={item} />} 
+                renderItem={({ item }) => <Tarejta4 datos={item} />} 
             /> 
-        </View> 
+        </Text> 
     ); 
 } 
  
