@@ -25,7 +25,7 @@ export default function Pagina8Screen() {
     return (
         <View style={styles.container}>
             <TextInput
-                style={styles.input}
+                style={styles.txt}
                 placeholder=""
                 value={textoBusqueda}
                 onChangeText={(text) => setTextoBusqueda(text)}
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
         flex: 1,
         padding: 10,
     },
-    input: {
+    txt: {
         height: 40,
         borderColor: "gray",
         borderWidth: 1,
